@@ -29,22 +29,27 @@ class getLink
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         // Thực thi CURL
         $result = curl_exec($ch);
+        if ($result=='Incorrect URL!')
+        {
+            echo 'Incorrect URL!';
+            die;
+        }
         // Ngắt CURL, giải phóng
         curl_close($ch);
         return $result;
     }
     public function getLink320($jsonLink)
     {
-        $pattern= '/"lossless\": \"(.*)\"}/';
+        $pattern= '/"link320": "(.*)",/';
         $subject = $jsonLink;
         preg_match($pattern,$subject,$matches);
-        echo $matches[1];
+        return $matches[1];
     }
     public function getLinkLossless($jsonLink)
     {
         $pattern= '/"lossless\": \"(.*)\"}/';
         $subject = $jsonLink;
         preg_match($pattern,$subject,$matches);
-        echo $matches[1];
+        return $matches[1];
     }
 }
