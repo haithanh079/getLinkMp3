@@ -1,0 +1,39 @@
+<html>
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="container center">
+    <h4>GetLink MP3.zing</h4>
+    <h5>Copy and paste link here:</h5>
+    <form role="form"
+          action="index.php"
+          method="POST" id="link">
+        <input type="text" name="link" class="form-control" id="link" placeholder="Copy link here:">
+        <button type="submit" class="btn waves-effect waves-red">GET LINK</button>
+    </form>
+    <?php
+    define('PATH', __DIR__);
+    require(PATH . '/getlink.php');
+    //Kiểm tra tồn tại dữ liệu post
+    if (isset($_POST['link'])) {
+        $mp3Link = $_POST['link'];
+
+        $getLink = new getLink();
+        //Lấy link api
+        $apiLink = $getLink->mp3Link($mp3Link);
+        //Lấy link lossless
+        $jsonLink = $getLink->generatorLink($apiLink);
+        echo $getLink->getLinkLossless($jsonLink);
+    }
+    ?>
+</div>
+</body>
+</html>
