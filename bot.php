@@ -15,14 +15,14 @@ $getLink = new getLink();
 //Lấy link api
 $apiLink = $getLink->mp3Link($mp3Link);
 //Lấy link lossless
-$jsonLink = $getLink->generatorLink($apiLink);
+$jsonLink = $getLink->curlLink($apiLink);
 $mp3=$getLink->getLink320($jsonLink);
 
 $flac=$getLink->getLinkLossless($jsonLink);
 
 if ($jsonLink=='Incorrect URL!')
 {
-    (new Chatfuel())->sendText('Nhập link đúng đi dm!');
+    (new Chatfuel())->sendText('Nhập link đúng đi dm!'.$mp3);
 }else {
     (new Chatfuel())->sendText('Bôi đen và copy link, không nhấn trực tiếp: '.$mp3);
 }

@@ -19,7 +19,7 @@ class getLink
         return 'https://mp3zing.download/api?key=QFopqEX1hjMN&url=' . $mp3Link;
     }
     //Lấy json link download
-    public function generatorLink($link)
+    public function curlLink($link)
     {
         $ch = curl_init();
 

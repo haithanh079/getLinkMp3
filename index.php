@@ -31,7 +31,7 @@
         //Lấy link api
         $apiLink = $getLink->mp3Link($mp3Link);
         //Lấy link lossless
-        $jsonLink = $getLink->generatorLink($apiLink);
+        $jsonLink = $getLink->curlLink($apiLink);
 //        echo $getLink->getLink320($jsonLink);
         $mp3=$getLink->getLink320($jsonLink);
         echo "<br>";
