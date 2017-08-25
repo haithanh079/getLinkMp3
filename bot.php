@@ -22,7 +22,7 @@ $flac=$getLink->getLinkLossless($jsonLink);
 
 if ($jsonLink=='Incorrect URL!')
 {
-    (new Chatfuel())->sendText('Nhập link đúng đi dm!'.$mp3);
+    (new Chatfuel())->sendText('Link bạn nhập không khả dụng!');
 }else {
     (new Chatfuel())->sendText('Bôi đen và copy link, không nhấn trực tiếp: '.$mp3);
 }
