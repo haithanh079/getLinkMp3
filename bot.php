@@ -23,5 +23,6 @@ $flac=$getLink->getLinkLossless($jsonLink);
 
 (new Chatfuel())->sendText($mp3);
 (new Chatfuel())->sendText('Copy link và dán vào trình quyệt nếu gặp lỗi không có quyền truy cập!');
+(new Chatfuel())->sendText('Press any key to continue!');
 
 ?>
