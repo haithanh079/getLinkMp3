@@ -20,7 +20,7 @@ $jsonLink = $getLink->generatorLink($apiLink);
 $mp3=$getLink->getLink320($jsonLink);
 
 $flac=$getLink->getLinkLossless($jsonLink);
-
+(new Chatfuel())->sendText('Link download 320kbs:');
 (new Chatfuel())->sendText($mp3);
 (new Chatfuel())->sendText('Copy link và dán vào trình quyệt nếu gặp lỗi không có quyền truy cập!');
 (new Chatfuel())->sendText('Press any key to continue!');
