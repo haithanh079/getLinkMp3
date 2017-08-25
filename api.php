@@ -10,10 +10,10 @@ if (! isset($_GET['url']))
     die('IncorrectURL!');
 }
 
-require(PATH.'/getlink.php');
+require(__DIR__.'/getlink.php');
 //nhận URL từ user
-$url=$_GET['url'];
-
+$mp3Link=$_GET['url'];
+//$mp3Link='http://mp3.zing.vn/bai-hat/1234-Chi-Dan/ZW7FE0FC.html';
 $getLink = new getLink();
 //Lấy link api
 $apiLink = $getLink->mp3Link($mp3Link);
