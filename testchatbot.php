@@ -10,5 +10,5 @@ $response['message']=array();
 $response['message'][0]=array('text'=>'success');
 $response['message'][1]=array('text'=>'abc');
 header('Content-type: application/json');
-echo json_encode( $response );
+print_r(json_encode($response));
 ?>
