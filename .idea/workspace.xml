@@ -65,8 +65,8 @@
       <file leaf-file-name="testchatbot.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testchatbot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="119">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -273,12 +273,12 @@
       <workItem from="1503453804540" duration="2942000" />
       <workItem from="1503466530854" duration="6307000" />
       <workItem from="1503588301513" duration="3905000" />
-      <workItem from="1503624057821" duration="4774000" />
+      <workItem from="1503624057821" duration="5629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41215000" />
+    <option name="totallyTimeSpent" value="42070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -591,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testchatbot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>

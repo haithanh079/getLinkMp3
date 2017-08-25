@@ -6,7 +6,9 @@
  * Time: 9:55 AM
  */
 $response=array();
-$response['message']=array('text'=>'success');
+$response['message']=array();
+$response['message'][0]=array('text'=>'success');
+$response['message'][1]=array('text'=>'abc');
 header('Content-type: application/json');
 echo json_encode( $response );
 ?>
