@@ -20,10 +20,12 @@ $mp3=$getLink->getLink320($jsonLink);
 
 $flac=$getLink->getLinkLossless($jsonLink);
 
-if ($jsonLink=='IncorectURL!')
+if ($jsonLink=='Incorrect URL!')
 {
     (new Chatfuel())->sendText('DM nhập link cho đúng!');
-}else (new Chatfuel())->sendText('Bôi đen và copy và copy link, không nhấn trực tiếp: '.$mp3);
+}else {
+    (new Chatfuel())->sendText('Bôi đen và copy và copy link, không nhấn trực tiếp: '.$mp3);
+}
 
 
 
