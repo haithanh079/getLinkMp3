@@ -27,7 +27,4 @@ if ($jsonLink=='Incorrect URL!')
     (new Chatfuel())->sendText('Bôi đen và copy link, không nhấn trực tiếp: '.$mp3);
 }
 
-
-
-
 ?>
