@@ -25,7 +25,7 @@ $mp3=$getLink->getLink320($jsonLink);
 $flac=$getLink->getLinkLossless($jsonLink);
 
 $response=array();
-$response['message']=array('text'=>$mp3);
+$response['message']=array('text'=>'success');
 //
 //    '{
 //  "messages": {

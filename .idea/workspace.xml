@@ -35,8 +35,8 @@
       <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -55,8 +55,8 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="311">
+              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -101,8 +101,8 @@
         <option value="$PROJECT_DIR$/newapi.json" />
         <option value="$PROJECT_DIR$/getlink.php" />
         <option value="$PROJECT_DIR$/testjson.php" />
-        <option value="$PROJECT_DIR$/test.json" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/test.json" />
         <option value="$PROJECT_DIR$/api.php" />
       </list>
     </option>
@@ -262,12 +262,12 @@
       <workItem from="1503453804540" duration="2942000" />
       <workItem from="1503466530854" duration="6307000" />
       <workItem from="1503588301513" duration="3905000" />
-      <workItem from="1503624057821" duration="3291000" />
+      <workItem from="1503624057821" duration="3957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39732000" />
+    <option name="totallyTimeSpent" value="40398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -535,14 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -570,10 +562,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="311">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding />
         </state>
       </provider>

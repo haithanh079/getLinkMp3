@@ -1,27 +1,5 @@
 {
-  "sender":{
-    "id":"USER_ID"
-  },
-  "recipient":{
-    "id":"PAGE_ID"
-  },
-  "timestamp":1458692752478,
-  "message":{
-    "mid":"mid.1458696618141:b4ef9d19ec21086067",
-    "attachments":[
-      {
-        "type":"image",
-        "payload":{
-          "url":"IMAGE_URL"
-        }
-      }
-    ]
+  "message": {
+    "text": "http:\/\/zmp3-mp3-320s1.zadn.vn\/2a1aefcf378bded5879a\/7476549963116102576?authen=exp=1503650024~acl=\/2a1aefcf378bded5879a\/*~hmac=3d1bf3d7613a97c0814387d41cd9747e&filename=1234-Chi-Dan.mp3"
   }
-},
-{
-  "messages": {
-{
-  "text": "success"
-}
-}
 }
