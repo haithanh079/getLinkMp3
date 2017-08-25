@@ -14,7 +14,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="-216">
               <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <marker date="1503628002647" expanded="true" signature="1488:2135" ph="..." />
@@ -32,31 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="37" column="30" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="37" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testchatbot.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testchatbot.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="306">
+              <caret line="24" column="43" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="24" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -66,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/vendor/juno_okyo/php-chatfuel-class/src/juno_okyo/Chatfuel.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="926">
-              <caret line="233" column="0" lean-forward="true" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+              <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,8 +55,8 @@
       <file leaf-file-name="bot.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+            <state relative-caret-position="272">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -308,12 +288,12 @@
       <workItem from="1503453804540" duration="2942000" />
       <workItem from="1503466530854" duration="6307000" />
       <workItem from="1503588301513" duration="3905000" />
-      <workItem from="1503624057821" duration="9079000" />
+      <workItem from="1503624057821" duration="9554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45520000" />
+    <option name="totallyTimeSpent" value="45995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -574,45 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <marker date="1503628002647" expanded="true" signature="1488:2135" ph="..." />
-            <marker date="1503628002647" expanded="true" signature="1525:1836" ph="..." />
-            <marker date="1503628002647" expanded="true" signature="1543:1822" ph="..." />
-            <marker date="1503628002647" expanded="true" signature="1623:1652" ph="..." />
-            <marker date="1503628002647" expanded="true" signature="1623:1653" ph="..." />
-            <marker date="1503628002647" expanded="true" signature="1623:1722" ph="..." />
-            <marker date="1503628002647" expanded="true" signature="1873:2125" ph="..." />
-            <marker date="1503628002647" expanded="true" signature="1891:2111" ph="..." />
-            <marker date="1503628002647" expanded="true" signature="1972:1977" ph="..." />
-            <marker date="1503628002647" expanded="true" signature="1981:2009" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="147" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="37" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testchatbot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -633,6 +578,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/juno_okyo/php-chatfuel-class/src/juno_okyo/Chatfuel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="926">
+          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testchatbot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -641,18 +602,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/juno_okyo/php-chatfuel-class/src/juno_okyo/Chatfuel.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
-          <caret line="233" column="0" lean-forward="true" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+        <state relative-caret-position="-216">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <marker date="1503628002647" expanded="true" signature="1488:2135" ph="..." />
+            <marker date="1503628002647" expanded="true" signature="1525:1836" ph="..." />
+            <marker date="1503628002647" expanded="true" signature="1543:1822" ph="..." />
+            <marker date="1503628002647" expanded="true" signature="1623:1652" ph="..." />
+            <marker date="1503628002647" expanded="true" signature="1623:1653" ph="..." />
+            <marker date="1503628002647" expanded="true" signature="1623:1722" ph="..." />
+            <marker date="1503628002647" expanded="true" signature="1873:2125" ph="..." />
+            <marker date="1503628002647" expanded="true" signature="1891:2111" ph="..." />
+            <marker date="1503628002647" expanded="true" signature="1972:1977" ph="..." />
+            <marker date="1503628002647" expanded="true" signature="1981:2009" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="24" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
