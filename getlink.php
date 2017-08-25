@@ -38,6 +38,7 @@ class getLink
         curl_close($ch);
         return $result;
     }
+    //Hàm trả về link 320kbs
     public function getLink320($jsonLink)
     {
         $pattern= '/"link320": "(.*)",/';
@@ -45,11 +46,22 @@ class getLink
         preg_match($pattern,$subject,$matches);
         return $matches[1];
     }
+    //Hàm trả về link Lossless flac
     public function getLinkLossless($jsonLink)
     {
         $pattern= '/"lossless\": \"(.*)\"}/';
         $subject = $jsonLink;
         preg_match($pattern,$subject,$matches);
         return $matches[1];
+    }
+}
+class ApiFacebook
+
+{
+    public function hearCallBack($jsonCallBack)
+    {
+        $json = array();
+        $json=json_decode($jsonCallBack);
+//        $json[]
     }
 }
