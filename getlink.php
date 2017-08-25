@@ -29,11 +29,11 @@ class getLink
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         // Thực thi CURL
         $result = curl_exec($ch);
-        if ($result=='Incorrect URL!')
-        {
-            echo 'Incorrect URL!';
-            die;
-        }
+//        if ($result=='Incorrect URL!')
+//        {
+//            echo 'Incorrect URL!';
+//            die;
+//        }
         // Ngắt CURL, giải phóng
         curl_close($ch);
         return $result;
