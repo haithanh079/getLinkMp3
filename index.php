@@ -14,9 +14,9 @@
     <h4>GetLink MP3.zing</h4>
     <h5>Copy and paste link here:</h5>
     <form role="form"
-          action="index.php"
-          method="POST" id="link">
-        <input type="text" name="link" class="form-control" id="link" placeholder="Copy link here:" required>
+          action="api.php"
+          method="GET" id="link">
+        <input type="text" name="url" class="form-control" id="link" placeholder="Copy link here:" required>
         <button type="submit" class="btn waves-effect waves-red">GET LINK</button>
     </form>
     <?php

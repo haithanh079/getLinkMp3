@@ -24,11 +24,15 @@ $mp3=$getLink->getLink320($jsonLink);
 
 $flac=$getLink->getLinkLossless($jsonLink);
 
-$response='{
-  "messages": {
-{
-  "text": "'.$mp3.'"
-}
-}
-}';
-print_r(json_encode($response));
+$response=array();
+$response['message']=array('text'=>$mp3);
+//
+//    '{
+//  "messages": {
+//{
+//  "text": "'.$mp3.'"
+//}
+//}
+//}';
+header('Content-type: application/json');
+echo json_encode( $response );
