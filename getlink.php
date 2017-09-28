@@ -8,7 +8,7 @@
 //if (!defined('PATH')) DIE ('Bad requested!');
 
 class getLink
-{   //Kiểm tra link có đúng định dạng mp3
+{   //Kiểm tra link có đúng định dạng mp3zâq
     public function checkLink($mp3Link)
     {
 
@@ -53,15 +53,5 @@ class getLink
         $subject = $jsonLink;
         preg_match($pattern,$subject,$matches);
         return $matches[1];
-    }
-}
-class ApiFacebook
-
-{
-    public function hearCallBack($jsonCallBack)
-    {
-        $json = array();
-        $json=json_decode($jsonCallBack);
-//        $json[]
     }
 }
